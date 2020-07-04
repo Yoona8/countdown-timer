@@ -1,0 +1,24 @@
+:root {
+    --basic-black: #000000;
+    --basic-blue: #00C9ED;
+    --basic-gold: #FDA648;
+    --light-gold: #FFE2A0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--basic-black);
+}
+
+.timer {
+    margin: 300px auto;
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-size: 90px;
+    text-align: center;
+    color: var(--light-gold);
+}
